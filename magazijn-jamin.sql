@@ -1,7 +1,7 @@
 -- ********************************************************
 -- Version:       Date:       Author:           
 -- ********       ****        *******         
--- 01             22-11-2024  Thomas Tadesse
+-- 01             22-11-2024  F. Nimród Lobozar
 -- ********************************************************
 
 CREATE DATABASE IF NOT EXISTS `magazijn-jamin` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
@@ -13,7 +13,7 @@ USE `magazijn-jamin`;
 -- ********************************************************
 -- Version:       Date:       Author:           Description
 -- ********       ****        *******           ***********
--- 01             22-11-2024  Thomas Tadesse    New table
+-- 01             22-11-2024  F. Nimród Lobozar    New table
 -- ********************************************************
 
 DROP TABLE IF EXISTS Product;
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS Product
 -- ***********************************************************
 -- Version:       Date:       Author:           Description
 -- ********       ****        *******           ***********
--- 01             22-11-2024  Thomas Tadesse    Insert Records
+-- 01             22-11-2024  F. Nimród Lobozar    Insert Records
 -- ***********************************************************
 
 INSERT INTO Product
@@ -68,7 +68,7 @@ VALUES
 -- ********************************************************
 -- Version:       Date:       Author:           Description
 -- ********       ****        *******           ***********
--- 01             22-11-2024  Thomas Tadesse    New table
+-- 01             22-11-2024  F. Nimród Lobozar    New table
 -- ********************************************************
 
 DROP TABLE IF EXISTS Magazijn;
@@ -91,7 +91,7 @@ CREATE TABLE IF NOT EXISTS Magazijn
 -- ***********************************************************
 -- Version:       Date:       Author:           Description
 -- ********       ****        *******           ***********
--- 01             22-11-2024  Thomas Tadesse    Insert Records
+-- 01             22-11-2024  F. Nimród Lobozar    Insert Records
 -- ***********************************************************
 
 INSERT INTO Magazijn
@@ -125,7 +125,7 @@ VALUES
 -- ***********************************************************
 -- Version:       Date:       Author:           Description
 -- ********       ****        *******           ***********
--- 01             13-12-2024  Thomas Tadesse    New table
+-- 01             13-12-2024  F. Nimród Lobozar    New table
 -- ***********************************************************
 
 CREATE TABLE IF NOT EXISTS Contact
@@ -148,7 +148,7 @@ CREATE TABLE IF NOT EXISTS Contact
 -- ***********************************************************
 -- Version:       Date:       Author:           Description
 -- ********       ****        *******           ***********
--- 01             13-12-2024  Thomas Tadesse    Insert Records
+-- 01             13-12-2024  F. Nimród Lobozar    Insert Records
 -- ***********************************************************
 
 INSERT INTO Contact
@@ -175,7 +175,7 @@ VALUES
 -- ********************************************************
 -- Version:       Date:       Author:           Description
 -- ********       ****        *******           ***********
--- 01             22-11-2024  Thomas Tadesse    New table
+-- 01             22-11-2024  F. Nimród Lobozar    New table
 -- ********************************************************
 
 DROP TABLE IF EXISTS Leverancier;
@@ -202,7 +202,7 @@ CREATE TABLE IF NOT EXISTS Leverancier
 -- ***********************************************************
 -- Version:       Date:       Author:           Description
 -- ********       ****        *******           ***********
--- 01             22-11-2024  Thomas Tadesse    Insert Records
+-- 01             22-11-2024  F. Nimród Lobozar    Insert Records
 -- ***********************************************************
 
 INSERT INTO Leverancier
@@ -233,7 +233,7 @@ VALUES
 -- ********************************************************
 -- Version:       Date:       Author:           Description
 -- ********       ****        *******           ***********
--- 01             22-11-2024  Thomas Tadesse    New table
+-- 01             22-11-2024  F. Nimród Lobozar    New table
 -- ********************************************************
 
 CREATE TABLE IF NOT EXISTS ProductPerLeverancier
@@ -259,7 +259,7 @@ CREATE TABLE IF NOT EXISTS ProductPerLeverancier
 -- ***********************************************************
 -- Version:       Date:       Author:           Description
 -- ********       ****        *******           ***********
--- 01             22-11-2024  Thomas Tadesse    Insert Records
+-- 01             22-11-2024  F. Nimród Lobozar    Insert Records
 -- ***********************************************************
 
 INSERT INTO ProductPerLeverancier
@@ -299,7 +299,7 @@ VALUES
 -- ********************************************************
 -- Version:       Date:       Author:           Description
 -- ********       ****        *******           ***********
--- 01             22-11-2024  Thomas Tadesse    New table
+-- 01             22-11-2024  F. Nimród Lobozar    New table
 -- ********************************************************
 
 DROP TABLE IF EXISTS Allergeen;
@@ -322,7 +322,7 @@ CREATE TABLE IF NOT EXISTS Allergeen
 -- ***********************************************************
 -- Version:       Date:       Author:           Description
 -- ********       ****        *******           ***********
--- 01             22-11-2024  Thomas Tadesse    Insert Records
+-- 01             22-11-2024  F. Nimród Lobozar    Insert Records
 -- ***********************************************************
 
 INSERT INTO Allergeen
@@ -348,7 +348,7 @@ VALUES
 -- ********************************************************
 -- Version:       Date:       Author:           Description
 -- ********       ****        *******           ***********
--- 01             22-11-2024  Thomas Tadesse    New table
+-- 01             22-11-2024  F. Nimród Lobozar    New table
 -- ********************************************************
 
 CREATE TABLE IF NOT EXISTS ProductPerAllergeen
@@ -372,7 +372,7 @@ CREATE TABLE IF NOT EXISTS ProductPerAllergeen
 -- ***********************************************************
 -- Version:       Date:       Author:           Description
 -- ********       ****        *******           ***********
--- 01             22-11-2024  Thomas Tadesse    Insert Records
+-- 01             22-11-2024  F. Nimród Lobozar    Insert Records
 -- ***********************************************************
 
 INSERT INTO ProductPerAllergeen

@@ -3,7 +3,7 @@
 --       en Product
 -- Versie: 01
 -- Datum:  22-11-2024
--- Auteur: Thomas Tadesse
+-- Auteur: F. Nimród Lobozar
 ******************************************************/
 
 -- Selecteer de juiste database voor je stored procedure
